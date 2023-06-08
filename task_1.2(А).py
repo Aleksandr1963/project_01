@@ -38,7 +38,7 @@ time_third_song = third_song[1]
 #print(time_third_song)# - проверка
 
 
-from datetime import timedelta, datetime
+from datetime import timedelta
 a = timedelta(minutes = int(time_first_song), seconds = (time_first_song - int(time_first_song))*100)
 b = timedelta(minutes = int(time_second_song), seconds = (time_second_song - int(time_second_song))*100)
 c = timedelta(minutes = int(time_third_song), seconds = (time_third_song - int(time_third_song))*100)
