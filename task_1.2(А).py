@@ -77,32 +77,3 @@ print("Три песни звучат" , z , "минут")
 # # Пункт D.
 # # Переведите минуты и секунды в формат времени. Используйте модуль datetime
 
-# import random
-#
-# first_song = random.choice(my_favorite_songs)
-#
-# time_first_song = first_song[1]
-# #print(time_first_song)# - промежуточная проверка
-#
-# my_favorite_songs.remove(first_song)# удаление из списка первой выбранной песни
-# print(my_favorite_songs)# промежуточная проверка словаря
-# second_song = random.choice(my_favorite_songs)
-# #print(second_song)
-# time_second_song = second_song[1]
-# # print(time_second_song)# проверка времени 3 песни
-# my_favorite_songs.remove(second_song)# удаление из списка второй выбранной песни
-# third_song = random.choice(my_favorite_songs)
-# time_third_song = third_song[1]
-# #print(time_third_song)# - проверка
-#
-#
-# from datetime import timedelta, datetime
-# a = timedelta(minutes = int(time_first_song), seconds = (time_first_song - int(time_first_song))*100)
-# b = timedelta(minutes = int(time_second_song), seconds = (time_second_song - int(time_second_song))*100)
-# c = timedelta(minutes = int(time_third_song), seconds = (time_third_song - int(time_third_song))*100)
-# # print(a) # проверка
-# # print(b) # проверка
-# # print(c) # проверка
-# z = a + b + c
-#
-# print("Три песни звучат" , z , "минут")
